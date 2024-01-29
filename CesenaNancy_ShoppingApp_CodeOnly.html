@@ -7505,7 +7505,37 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Section-1:-Defining-User-and-Admin-Functions"><strong>Section 1: Defining User and Admin Functions</strong><a class="anchor-link" href="#Section-1:-Defining-User-and-Admin-Functions">¶</a></h3><h5 id="User-and-Admin-Logins">User and Admin Logins<a class="anchor-link" href="#User-and-Admin-Logins">¶</a></h5>
+<h3 id="Section-1:-Defining-User-and-Admin-Functions"><strong>Section 1: Defining User and Admin Functions</strong><a class="anchor-link" href="#Section-1:-Defining-User-and-Admin-Functions">¶</a></h3><h5 id="Print-out-welcome-message">Print out welcome message<a class="anchor-link" href="#Print-out-welcome-message">¶</a></h5><h6 id="*-A-welcome-message-should-initially-be-displayed-in-the-e-commerce-application,-such-as-%22Welcome-to-the-Demo-Marketplace%22.">* A welcome message should initially be displayed in the e-commerce application, such as "Welcome to the Demo Marketplace".<a class="anchor-link" href="#*-A-welcome-message-should-initially-be-displayed-in-the-e-commerce-application,-such-as-%22Welcome-to-the-Demo-Marketplace%22.">¶</a></h6>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">shoppingApp</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">'--------------------------------------------------------'</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Welcome to Nancy's Marketplace - we are thrilled to have you! </span><span class="se">\n</span><span class="s2">Please browse around, and don't be shy to add items into your cart. </span><span class="se">\n</span><span class="s2">We have a flexible return policy!"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">'--------------------------------------------------------'</span><span class="p">)</span>
+
+<span class="n">shoppingApp</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h5 id="Define-User-and-Admin-Logins">Define User and Admin Logins<a class="anchor-link" href="#Define-User-and-Admin-Logins">¶</a></h5><h6 id="*-User-login-and-admin-login-should-be-created-once-the-code-for-the-welcome-message-has-been-written.-For-the-creation-of-demo-login-and-admin-login,-demo-databases-for-those-should-be-created-for-the-user-and-admin-verification,-and-session-id-creation.">* User login and admin login should be created once the code for the welcome message has been written. For the creation of demo login and admin login, demo databases for those should be created for the user and admin verification, and session id creation.<a class="anchor-link" href="#*-User-login-and-admin-login-should-be-created-once-the-code-for-the-welcome-message-has-been-written.-For-the-creation-of-demo-login-and-admin-login,-demo-databases-for-those-should-be-created-for-the-user-and-admin-verification,-and-session-id-creation.">¶</a></h6>
 </div>
 </div>
 </div>
@@ -7570,6 +7600,17 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h6 id="*-The-admin-can-only-log-in-using-his-credentials,-and-if-the-admin-attempts-to-log-in-using-another-set-of-credentials,-an-error-notice-must-appear.">* The admin can only log in using his credentials, and if the admin attempts to log in using another set of credentials, an error notice must appear.<a class="anchor-link" href="#*-The-admin-can-only-log-in-using-his-credentials,-and-if-the-admin-attempts-to-log-in-using-another-set-of-credentials,-an-error-notice-must-appear.">¶</a></h6>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7605,6 +7646,17 @@ a.anchor-link {
 <span class="n">admin_login</span><span class="p">()</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h6 id="*-Users-should-not-be-able-to-take-advantage-of-any-of-the-admin's-rights.">* Users should not be able to take advantage of any of the admin's rights.<a class="anchor-link" href="#*-Users-should-not-be-able-to-take-advantage-of-any-of-the-admin's-rights.">¶</a></h6>
 </div>
 </div>
 </div>
@@ -7650,7 +7702,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Define-Sample-Catalog">Define Sample Catalog<a class="anchor-link" href="#Define-Sample-Catalog">¶</a></h5>
+<h5 id="Define-Sample-Catalog">Define Sample Catalog<a class="anchor-link" href="#Define-Sample-Catalog">¶</a></h5><h6 id="*-Construct-a-sample-product-catalog-with-three-to-four-product-categories,-such-as-Boots,-Coats,-Jackets,-and-Caps.-The-product-id,-name,-category-id,-and-price-should-all-be-present-for-each-item-in-the-dummy-database-of-the-catalog.-Both-users-and-administrators-can-view-the-catalog.">* Construct a sample product catalog with three to four product categories, such as Boots, Coats, Jackets, and Caps. The product id, name, category id, and price should all be present for each item in the dummy database of the catalog. Both users and administrators can view the catalog.<a class="anchor-link" href="#*-Construct-a-sample-product-catalog-with-three-to-four-product-categories,-such-as-Boots,-Coats,-Jackets,-and-Caps.-The-product-id,-name,-category-id,-and-price-should-all-be-present-for-each-item-in-the-dummy-database-of-the-catalog.-Both-users-and-administrators-can-view-the-catalog.">¶</a></h6>
 </div>
 </div>
 </div>
@@ -7712,7 +7764,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="User-cart-functionality-Functions">User cart functionality Functions<a class="anchor-link" href="#User-cart-functionality-Functions">¶</a></h4>
+<h4 id="Define-user-cart-functionality-Functions">Define user cart functionality Functions<a class="anchor-link" href="#Define-user-cart-functionality-Functions">¶</a></h4><h6 id="*-User-login-rights-include-the-ability-to-view-cart-contents,-add-items-to-carts,-and-remove-items-from-carts.-The-user-should-be-able-to-add-items-or-delete-items-in-the-cart-using-session-id,-product-id,-and-quantity.">* User login rights include the ability to view cart contents, add items to carts, and remove items from carts. The user should be able to add items or delete items in the cart using session id, product id, and quantity.<a class="anchor-link" href="#*-User-login-rights-include-the-ability-to-view-cart-contents,-add-items-to-carts,-and-remove-items-from-carts.-The-user-should-be-able-to-add-items-or-delete-items-in-the-cart-using-session-id,-product-id,-and-quantity.">¶</a></h6>
 </div>
 </div>
 </div>
@@ -7860,6 +7912,17 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h6 id="*-The-program-should-provide-demo-payment-checkout-options,-like-Net-banking,-PayPal,-UPI,-etc.-After-selecting-the-payment-option,-a-checkout-message-like,-%22Your-order-is-successfully-placed%22-or-%22You-will-be-shortly-redirected-to-the-portal-for-Unified-Payment-Interface-to-make-a-payment-of-Rs.-2000%22,-etc.,-should-be-displayed.">* The program should provide demo payment checkout options, like Net banking, PayPal, UPI, etc. After selecting the payment option, a checkout message like, "Your order is successfully placed" or "You will be shortly redirected to the portal for Unified Payment Interface to make a payment of Rs. 2000", etc., should be displayed.<a class="anchor-link" href="#*-The-program-should-provide-demo-payment-checkout-options,-like-Net-banking,-PayPal,-UPI,-etc.-After-selecting-the-payment-option,-a-checkout-message-like,-%22Your-order-is-successfully-placed%22-or-%22You-will-be-shortly-redirected-to-the-portal-for-Unified-Payment-Interface-to-make-a-payment-of-Rs.-2000%22,-etc.,-should-be-displayed.">¶</a></h6>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7962,7 +8025,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Admin-Functionality-Functions">Admin Functionality Functions<a class="anchor-link" href="#Admin-Functionality-Functions">¶</a></h4>
+<h4 id="Admin-Functionality-Functions">Admin Functionality Functions<a class="anchor-link" href="#Admin-Functionality-Functions">¶</a></h4><h6 id="*-The-admin-should-be-able-to-add-new-products-to-the-catalog.-Additionally,-the-program-needs-to-make-it-possible-for-an-existing-product-to-be-modified-using-an-admin-session-id.">* The admin should be able to add new products to the catalog. Additionally, the program needs to make it possible for an existing product to be modified using an admin session id.<a class="anchor-link" href="#*-The-admin-should-be-able-to-add-new-products-to-the-catalog.-Additionally,-the-program-needs-to-make-it-possible-for-an-existing-product-to-be-modified-using-an-admin-session-id.">¶</a></h6><h6 id="*-The-admin-should-then-have-the-ability-to-remove-any-existing-products-from-the-already-generated-catalog.">* The admin should then have the ability to remove any existing products from the already-generated catalog.<a class="anchor-link" href="#*-The-admin-should-then-have-the-ability-to-remove-any-existing-products-from-the-already-generated-catalog.">¶</a></h6><h6 id="*-The-admin-should-be-able-to-add-a-new-category-of-product-and-delete-the-prevailing-category-of-product-from-the-catalog.">* The admin should be able to add a new category of product and delete the prevailing category of product from the catalog.<a class="anchor-link" href="#*-The-admin-should-be-able-to-add-a-new-category-of-product-and-delete-the-prevailing-category-of-product-from-the-catalog.">¶</a></h6>
 </div>
 </div>
 </div>
@@ -8127,6 +8190,17 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h6 id="*-The-admin-should-not-be-able-to-interfere-with-any-of-the-functions-that-the-user-can-perform,-as-discussed-above.-An-error-should-appear-if-the-admin-tries-to-carry-out-those-tasks.">* The admin should not be able to interfere with any of the functions that the user can perform, as discussed above. An error should appear if the admin tries to carry out those tasks.<a class="anchor-link" href="#*-The-admin-should-not-be-able-to-interfere-with-any-of-the-functions-that-the-user-can-perform,-as-discussed-above.-An-error-should-appear-if-the-admin-tries-to-carry-out-those-tasks.">¶</a></h6>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8209,7 +8283,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Final-Shopping-App-Function"><strong>Final Shopping App Function</strong><a class="anchor-link" href="#Final-Shopping-App-Function">¶</a></h4>
+<h3 id="Section-2:-Final-Shopping-App"><strong>Section 2: Final Shopping App</strong><a class="anchor-link" href="#Section-2:-Final-Shopping-App">¶</a></h3><h6 id="*-shoppingApp()-cycles-through-all-previously-defined-functions-in-order-to-create-the-expected-user-and-admin-experiences.">* shoppingApp() cycles through all previously defined functions in order to create the expected user and admin experiences.<a class="anchor-link" href="#*-shoppingApp()-cycles-through-all-previously-defined-functions-in-order-to-create-the-expected-user-and-admin-experiences.">¶</a></h6>
 </div>
 </div>
 </div>
