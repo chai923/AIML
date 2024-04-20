@@ -51,3 +51,8 @@ DataWranglingDataset/Dataset/final_rental_bike_dataset.csv
 DataWranglingDataset/Dataset/rental_bike_descr.csv
 DataWranglingDataset/Dataset/rental_bike_season.xlsx
 SalesProject.ipynb
+FloridaBikeRentals.csv
+requirements.txt
+StatsDatasets/heart.txt
+StatsDatasets/pima-indians-diabetes.txt
+StatsDatasets/pokemon.csv
