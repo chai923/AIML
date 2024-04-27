@@ -56,3 +56,4 @@ requirements.txt
 StatsDatasets/heart.txt
 StatsDatasets/pima-indians-diabetes.txt
 StatsDatasets/pokemon.csv
+StatsDatasets/Mall_customers.txt
